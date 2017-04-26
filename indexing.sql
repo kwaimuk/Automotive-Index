@@ -92,3 +92,4 @@ WHERE year = 2010;
 
 
 
+--4 and 5 has an improved performance after indexing due to psql latest version improved performance.
