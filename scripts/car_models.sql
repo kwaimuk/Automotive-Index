@@ -1,6 +1,7 @@
 -- db indexed_cars
 
-CREATE TABLE IF NOT EXISTS car_models
+
+CREATE TABLE car_models
 (
  id serial,
  make_code character varying(125) NOT NULL,
@@ -10,3 +11,18 @@ CREATE TABLE IF NOT EXISTS car_models
  year integer NOT NULL,
  PRIMARY KEY (id)
 )
+
+
+
+
+-- CREATE INDEX lambo
+-- ON car_models (make_title);
+
+-- CREATE INDEX nissan
+-- ON car_models (model_title);
+
+-- CREATE INDEX lamboinfos
+-- ON car_models (make_code);
+
+-- CREATE INDEX years
+-- ON car_models (year);
